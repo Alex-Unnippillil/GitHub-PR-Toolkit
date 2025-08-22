@@ -1,0 +1,4 @@
+* text=auto
+
+# Ensure PowerShell scripts keep CRLF on Windows
+*.ps1 text eol=crlf

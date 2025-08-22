@@ -1,0 +1,24 @@
+# Build and tooling
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak
+
+# Runtime/output
+Logs/
+Results/
+
+# Temp repos and checkouts
+temp_repo_checkout/
+temp_repos/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Node (if present)
+node_modules/
+
+# Misc
+*.DS_Store
