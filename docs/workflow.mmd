@@ -1,0 +1,11 @@
+graph TD
+    A[User] --> B[Launch Toolkit]
+    B --> C{Choose Operation}
+    C -->|status| D[Collect open PRs]
+    C -->|merge| E[Validate & merge]
+    C -->|close| F[Close PRs]
+    C -->|force| G[Force merge with backup]
+    D --> H[Logs & results]
+    E --> H
+    F --> H
+    G --> H
